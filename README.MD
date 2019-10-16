@@ -5,11 +5,9 @@
 
 ### Rotas da API
 
-#### Criar projeto
 `POST /projects`: A rota deve receber `id`, `title` e `tasks`dentro do body no seguinte formato:
 
 `{ id: "1", title: 'Novo projeto', tasks: [] }`; 
-
 
 `GET /projects`: Rota que lista todos projetos e suas tarefas;
 
